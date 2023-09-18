@@ -1,0 +1,194 @@
+UVM_INFO /proj/xbuilds/SWIP/2020.1_0223_2001/installs/lin64/Vivado/2020.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+----------------------------------------------------------------
+(C) 2013-2014 NVIDIA Corporation
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2007-2014 Mentor Graphics Corporation
+
+
+----------------------------------------------------------------
+
+UVM_INFO @ 0: reporter [RNTST] Running test test_1...
+UVM_INFO /proj/xbuilds/SWIP/2020.1_0223_2001/installs/lin64/Vivado/2020.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+Compare SUCCESSFULLY
+The expected data is
+----------------------------------------
+Name       Type              Size  Value
+----------------------------------------
+tr         data_transaction  -     @1045
+  data_in  integral          16    'h83 
+  put      integral          1     'hX  
+  get      integral          1     'hX  
+----------------------------------------
+The actual data is
+----------------------------------------
+Name       Type              Size  Value
+----------------------------------------
+tr         data_transaction  -     @1281
+  data_in  integral          16    'h83 
+  put      integral          1     'hX  
+  get      integral          1     'hX  
+----------------------------------------
+Compare SUCCESSFULLY
+The expected data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1053 
+  data_in  integral          16    'hdae1
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+The actual data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1293 
+  data_in  integral          16    'hdae1
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+Compare SUCCESSFULLY
+The expected data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1069 
+  data_in  integral          16    'hff5c
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+The actual data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1305 
+  data_in  integral          16    'hff5c
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+Compare SUCCESSFULLY
+The expected data is
+----------------------------------------
+Name       Type              Size  Value
+----------------------------------------
+tr         data_transaction  -     @1077
+  data_in  integral          16    'h410
+  put      integral          1     'hX  
+  get      integral          1     'hX  
+----------------------------------------
+The actual data is
+----------------------------------------
+Name       Type              Size  Value
+----------------------------------------
+tr         data_transaction  -     @1317
+  data_in  integral          16    'h410
+  put      integral          1     'hX  
+  get      integral          1     'hX  
+----------------------------------------
+Compare SUCCESSFULLY
+The expected data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1093 
+  data_in  integral          16    'hed79
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+The actual data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1329 
+  data_in  integral          16    'hed79
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+Compare SUCCESSFULLY
+The expected data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1101 
+  data_in  integral          16    'h4e28
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+The actual data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1341 
+  data_in  integral          16    'h4e28
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+Compare SUCCESSFULLY
+The expected data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1117 
+  data_in  integral          16    'h70ce
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+The actual data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1353 
+  data_in  integral          16    'h70ce
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+Compare SUCCESSFULLY
+The expected data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1125 
+  data_in  integral          16    'hfd24
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+The actual data is
+-----------------------------------------
+Name       Type              Size  Value 
+-----------------------------------------
+tr         data_transaction  -     @1365 
+  data_in  integral          16    'hfd24
+  put      integral          1     'hX   
+  get      integral          1     'hX   
+-----------------------------------------
+UVM_INFO /proj/xbuilds/SWIP/2020.1_0223_2001/installs/lin64/Vivado/2020.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 421000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /proj/xbuilds/SWIP/2020.1_0223_2001/installs/lin64/Vivado/2020.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 421000: reporter [UVM/REPORT/SERVER] [UVM/RELNOTES]     1
+[UVM/COMP/NAMECHECK]     1
+[TEST_DONE]     1
+[RNTST]     1
+** Report counts by id
+UVM_FATAL :    0
+UVM_ERROR :    0
+UVM_WARNING :    0
+UVM_INFO :    4
+** Report counts by severity
+
+--- UVM Report Summary ---
+
+
+$finish called at time : 421 ns : File "C:/xilin/Vivado/2020.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+xsim: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1036.297 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:41 ; elapsed = 00:04:23 . Memory (MB): peak = 1036.297 ; gain = 0.000
